@@ -4,9 +4,9 @@ import mysql from "mysql";
 const router = express.Router();
 const connection = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "Lapetete",
-  database: "music"
+  user: "****",
+  password: "********",
+  database: "******"
 });
 
 connection.connect(err => {
